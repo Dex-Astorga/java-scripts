@@ -1,0 +1,98 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #F61414;
+    --neutral: #FFF;
+    --black: #000;
+    --neutral-dark: #3A3A3A;
+
+    --font1: 'Jura', sans-serif;
+
+    --width: 1064px;
+}
+
+.container {
+    max-width: var(--width);
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2% 0;
+}
+
+nav .logo img {
+    width: 100px;
+}
+
+nav .title {
+    display: flex;
+    font-family: var(--font1);
+    flex-direction: column;
+    padding-left: 54px;
+}
+
+nav .title h1 {
+    color: var(--black)
+    ;
+    font-family: var(--font1);
+    font-size: 72px;
+    font-weight: 700;
+}
+
+nav .title p {
+    color: var(--black);
+    font-family: var(--font1);
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 8.28px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 904px;
+    margin: 0 auto;
+
+}
+
+.content-wrapper .filters {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+}
+
+.content-wrapper .main-content {
+    display: flex;
+    flex-basis: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
