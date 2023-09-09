@@ -12,7 +12,7 @@
     <div class="container">
         <nav>
             <div class="logo">
-                <a href="">
+                <a th:href="@{/notes/}">
                     <img src="/images/dexdev_logo.png" alt="">
                 </a>
             </div>
@@ -27,24 +27,24 @@
                     <p>FILTERS</p>
                 </div>
                 <div class="all-notes button">
-                    <a href="">ALL NOTES</a>
+                    <a th:href="@{/notes/}">ALL NOTES</a>
                 </div>
-                <div class="all-notes button">
-                    <a href="">WORK</a>
+                <div class="work button">
+                    <a th:href="@{/notes/filter/WORK}">WORK</a>
                 </div>
-                <div class="to-do button">
+                <div class="reminder button">
                     <a href="">REMINDER</a>
                 </div>
-                <div class="reminder button">
+                <div class="to-do button">
                     <a href="">TO DO</a>
                 </div>
-                <div class="meeting button">
+                <div class="research button">
                     <a href="">RESEARCH</a>
                 </div>
-                <div class="reminder button">
+                <div class="project-idea button">
                     <a href="">PROJECT IDEA</a>
                 </div>
-                <div class="meeting button">
+                <div class="random button">
                     <a href="">RANDOM</a>
                 </div>
             </div>

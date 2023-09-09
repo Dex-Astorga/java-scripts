@@ -29,4 +29,8 @@ public class JavaScriptsService {
     public void deleteById(Long id) {
         repository.deleteById(id);
     }
+
+//    public void filter(String category) {
+//        repository.findAllByContentType(category);
+//    }
 }

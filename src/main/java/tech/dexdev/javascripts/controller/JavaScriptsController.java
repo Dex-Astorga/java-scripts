@@ -55,4 +55,12 @@ public class JavaScriptsController {
         service.deleteById(id);
         return "redirect:/notes/";
     }
+
+    @GetMapping("/filter/WORK")
+    public String filter(//@PathVariable String category,
+                         Model model) {
+        model.addAttribute("category", "WORK");
+//        service.filter(category);
+        return "filter";
+    }
 }
