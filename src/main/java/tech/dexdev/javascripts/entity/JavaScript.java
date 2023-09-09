@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name="java_scripts")
-public class JavaScripts {
+public class JavaScript {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -12,10 +12,10 @@ public class JavaScripts {
     @Enumerated(EnumType.STRING)
     private Category category;
 
-    public JavaScripts() {
+    public JavaScript() {
     }
 
-    public JavaScripts(Long id, String note, Category category) {
+    public JavaScript(Long id, String note, Category category) {
         this.id = id;
         this.note = note;
         this.category = category;
